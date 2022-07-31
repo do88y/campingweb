@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Seulgi Seo">
+    <meta name="keywords" content="camping, 캠핑장">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="images/seoul.png">
+    <title>서울로 떠나는 캠핑</title>
+    <!-- 구글 폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <!-- 건너뛰기 링크 시작 -->
+    <a href="#title_food" id="skipNav">본문 바로가기</a>
+    <!-- 건너뛰기 링크 종료 -->
+
+    <!-- wrapper 영역 시작 -->
+    <div id="wrapper">
+
+        <!-- header 영역 시작 -->
+        <header>
+            <div class="logo">
+                <a href="main.html">
+                    <img id="logo" src="images/tent.png" alt="로고">
+                </a>
+            </div>
+            <ul class="login">
+                <li><a href="join1.html">회원가입</a></li>
+                <li><a href="#">로그인</a></li>
+            </ul>
+            <nav>
+                <ul class="mainMenu">
+                    <li><a href="#" class="dropbtn">난지</a>
+                        <div class="dropdown_box box1">
+                            <ul class="dropdown_content">
+                                <li><a href="sub.html">이용 안내</a></li>
+                                <li><a href="#">시설 안내</a></li>
+                                <li><a href="#">예약/확인</a></li>
+                                <li><a href="#">공지/후기</a></li>
+                                <li><a href="#">오시는 길</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#" class="dropbtn">노을</a>
+                        <div class="dropdown_box box2">
+                            <ul class="dropdown_content">
+                                <li><a href="#">이용 안내</a></li>
+                                <li><a href="#">시설 안내</a></li>
+                                <li><a href="#">예약/확인</a></li>
+                                <li><a href="#">공지/후기</a></li>
+                                <li><a href="#">오시는 길</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#" class="dropbtn">서울대공원</a>
+                        <div class="dropdown_box box3">
+                            <ul class="dropdown_content">
+                                <li><a href="#">이용 안내</a></li>
+                                <li><a href="#">시설 안내</a></li>
+                                <li><a href="#">예약/확인</a></li>
+                                <li><a href="#">공지/후기</a></li>
+                                <li><a href="#">오시는 길</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#" class="dropbtn">중랑</a>
+                        <div class="dropdown_box box4">
+                            <ul class="dropdown_content">
+                                <li><a href="#">이용 안내</a></li>
+                                <li><a href="#">시설 안내</a></li>
+                                <li><a href="#">예약/확인</a></li>
+                                <li><a href="#">공지/후기</a></li>
+                                <li><a href="#">오시는 길</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#" class="dropbtn">강동</a>
+                        <div class="dropdown_box box5">
+                            <ul class="dropdown_content">
+                                <li><a href="#">이용 안내</a></li>
+                                <li><a href="#">시설 안내</a></li>
+                                <li><a href="#">예약/확인</a></li>
+                                <li><a href="#">공지/후기</a></li>
+                                <li><a href="#">오시는 길</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#" class="dropbtn">초안산</a>
+                        <div class="dropdown_box box6">
+                            <ul class="dropdown_content">
+                                <li><a href="#">이용 안내</a></li>
+                                <li><a href="#">시설 안내</a></li>
+                                <li><a href="#">예약/확인</a></li>
+                                <li><a href="#">공지/후기</a></li>
+                                <li><a href="#">오시는 길</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#" class="dropbtn">우이동</a>
+                        <div class="dropdown_box box7">
+                            <ul class="dropdown_content">
+                                <li><a href="#">이용 안내</a></li>
+                                <li><a href="#">시설 안내</a></li>
+                                <li><a href="#">예약/확인</a></li>
+                                <li><a href="#">공지/후기</a></li>
+                                <li><a href="#">오시는 길</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- header 영역 종료 -->
+
+        <!-- 이미지 영역 시작 -->
+        <h1 id="image_title">서울로 떠나는 캠핑</h1>
+        <div id="animation_wrap">
+            <div class="animation_canvas">
+                <div class="slider_panel">
+                    <div class="slider_image"><img src="images/main_nanji.jpg" alt="난지캠핑장"></div>
+                    <div class="slider_image"><img src="images/main_noeul.jpg" alt="노을캠핑장"></div>
+                    <div class="slider_image"><img src="images/main_seouldae.jpg" alt="서울대공원캠핑장"></div>
+                    <div class="slider_image"><img src="images/main_joongrang.jpg" alt="중랑캠핑장"></div>
+                    <div class="slider_image"><img src="images/main_gangdong.jpg" alt="강동캠핑장"></div>
+                    <div class="slider_image"><img src="images/main_choansan.jpg" alt="초안산캠핑장"></div>
+                    <div class="slider_image"><img src="images/main_uidong.jpg" alt="우이동캠핑장"></div>
+                </div>
+                <div class="slider_text_panel">
+                    <div class="slider_text">
+                        <h2>난지</h2> 
+                    </div>
+                    <div class="slider_text">
+                        <h2>노을</h2> 
+                    </div>
+                    <div class="slider_text">
+                        <h2>서울대공원</h2> 
+                    </div>
+                    <div class="slider_text">
+                        <h2>중랑</h2> 
+                    </div>
+                    <div class="slider_text">
+                        <h2>강동</h2> 
+                    </div>
+                    <div class="slider_text">
+                        <h2>초안산</h2> 
+                    </div>
+                    <div class="slider_text">
+                        <h2>우이동</h2> 
+                    </div>
+                </div>
+                
+            </div>
+            <div class="control_panel">
+                <div class="control_button conbtn1"></div>
+                <div class="control_button conbtn2"></div>
+                <div class="control_button conbtn3"></div>
+                <div class="control_button conbtn4"></div>
+                <div class="control_button conbtn5"></div>
+                <div class="control_button conbtn6"></div>
+                <div class="control_button conbtn7"></div>
+            </div>
+        </div>
+        <!-- 이미지 영역 종료 -->
+
+        <!-- 콘텐츠 영역 시작 -->
+        <div class="contents">
+            <div class="contents_inner con_food">
+                <h2 id="title_food"><a href="#" style="color: #373737">캠핑 <span style="color: #c75b39;">음식</span></a></h2>
+                <div id="div_food">
+                    <a href="#"><img src="images/main_food.jpg" alt="캠핑 음식" width="960px"></a>
+                </div>
+            </div>
+            <div class="contents_inner con_solo">
+                <h2 id="title_solo"><a href="#" style="color: #373737"><span style="color: #cabf45">1인</span> 캠핑</a></h2>
+                <div id="div_solo">
+                    <a href="#"><img src="images/main_solo.jpg" alt="1인 캠핑" width="960px"></a>
+                </div>
+            </div>
+            <div class="contents_inner con_sleep">
+                <h2 id="title_sleep"><a href="#" style="color: #373737">텐트에서 <span style="color: #7da453">숙면하는 방법</span></a></h2>
+                <div id="div_sleep">
+                    <a href="#"><img src="images/main_sleep.jpg" alt="텐트에서 숙면하는 방법" width="960px"></a>
+                </div>
+                <div id="div_sleep2">
+                    <a href="#"><img src="images/sleep3.jpg" alt="텐트에서 숙면하는 방법" width="960px"></a>
+                </div>
+            </div>
+            <div class="contents_inner con_dog">
+                <h2 id="title_dog"><a href="#" style="color: #373737">반려견과<br><span style="color: #7c7c7c">캠핑</span></a></h2>
+                <h2 id="title_dog2"><a href="#" style="color: #373737">함께<br><span style="color: #7c7c7c">즐기기</span></a></h2>
+                <div id="div_dog">
+                    <a href="#"><img src="images/main_dog.jpg" alt="반려견과 함께" width="960px"></a>
+                </div>
+            </div>
+        </div>
+        <!-- 콘텐츠 영역 종료 -->
+
+        <!-- footer 영역 시작 -->
+        <footer>
+            <ul class="sns_group">
+                <li><a href="#"><img src="images/instagram.png" alt="instagram"></a></li>
+                <li><a href="#"><img src="images/facebook.png" alt="facebook"></a></li>
+                <li><a href="#"><img src="images/twitter.png" alt="twitter"></a></li>
+            </ul>
+            <address>
+                <p class="txt1">서울특별시청</p>
+                <p class="txt2"><span>04524</span><span>서울특별시 중구 세종대로 110</span>대표전화 02-120</p>
+                <p class="txt3">&copy;Seoul Metropolitan Goverment all rights reserved</p>
+            </address>
+        </footer>
+        <!-- footer 영역 종료 -->
+
+    </div>
+    <!-- wrapper 영역 종료 -->
+</body>
+</html>
