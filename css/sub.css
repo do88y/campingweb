@@ -243,12 +243,20 @@ header {
     height: 400px;
     margin-bottom: 25px;
     border-radius: 10px;
+    overflow: hidden;
     color: #fff;
-    opacity: 0.65;
     cursor: pointer;
 }
 
+.contents_image {
+    width: 100%;
+    height: 100%;
+    opacity: 0.65;
+}
+
 .contents h2 {
+    position: relative;
+    top: -420px;
     font-family: SDSwagger;
     font-weight: lighter;
     letter-spacing: 1.2px;
@@ -266,23 +274,25 @@ header {
 }
 
 .contents .contents_sub {
+    position: relative;
+    top: -420px;
     margin: 120px 0 0 20px;
     font-size: 36px;
     color: #eeeeee;
     text-shadow: 2px 2px #373737;
 }
 
-.contents_inner.notice {
-    background: url(../images/notice.png);
+.contents_image.notice {
+    background-image: url(../images/notice.png);
 }
-.contents_inner.charge {
-    background: url(../images/charge.png);
+.contents_image.charge {
+    background-image: url(../images/charge.png);
 }
-.contents_inner.use {
-    background: url(../images/rules.png);
+.contents_image.use {
+    background-image: url(../images/rules.png);
 }
-.contents_inner.info {
-    background: url(../images/info.png);
+.contents_image.info {
+    background-image: url(../images/info.png);
 }
 /* 콘텐츠 영역 종료 */
 
